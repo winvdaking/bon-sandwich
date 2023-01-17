@@ -78,3 +78,5 @@ vendor/
 composer.phar
 
 /.env
+
+/conf
