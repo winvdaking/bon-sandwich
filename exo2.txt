@@ -1,0 +1,44 @@
+Liste des collections :
+	Annonces
+	Catégories
+	Photos
+	Départements
+	Régions
+
+Liste des URIs :
+	/categories
+	/categories/{id}
+	/categories/{id}/annonces
+
+	/annonces
+	/annonces/{id}
+	/annonces/{id}/categorie
+	/annonces/{id}/photos
+	/annonces/{id}/departement
+
+	/photos
+	/photos/{id}
+	/photos/{id}/annonce
+	
+	/departements
+	/departements/{id}
+	/departements/{id}/region
+	/departements/{id}/annonces
+
+	/regions
+	/regions/{id}
+	/regions/{id}/departements
+
+
+Requêtes :
+
+GET /annonces
+GET /departements/54/annonces
+GET /categories/voitures/annonces
+PUT /categories (car on donne l'ID)...
+PUT /annonces/{id}
+POST /annonces - PUT /annonces/{last_id}/categorie - PUT /annonces/{last_id}/departement
+PUT /annonces/{id}/categorie
+PUT /annonces/{id}/photos (image)
+DELETE /annonces/{id}/photos - DELETE /annonces/{id}
+
