@@ -1,7 +1,7 @@
 driver=mysql
-username=
-password=
-host=
-database=
+username=order_lbs
+password=order_lbs
+host=order.db
+database=order_lbs
 charset=utf8
 collation=utf8_unicode_ci
